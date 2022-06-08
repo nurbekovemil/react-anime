@@ -1,0 +1,11 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.site-layout 
+{ padding-top: 40px;
+  margin-left: 64px;
+  margin-right: 64px;
+  min-height: 380px;
+}
