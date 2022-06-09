@@ -10,7 +10,6 @@ const AnimeList = ({ page, perPage, setPerPage, search }) => {
   const [favourites, setFavourites] = useState([]);
   const { data, loading, error } = useQuery(GET_ANIME_LIST, {
     variables: { page, perPage, search },
-    pollInterval: 500,
   });
 
   useEffect(() => {
