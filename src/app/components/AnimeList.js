@@ -31,7 +31,7 @@ const AnimeList = ({ page, perPage, setPerPage, search }) => {
     return (
       <Row align="center">
         <Col>
-          <Spinner>Loading...</Spinner>;
+          <Spinner>Loading...</Spinner>
         </Col>
       </Row>
     );
